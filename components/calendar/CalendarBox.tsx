@@ -55,8 +55,6 @@ const GoogleCalendar = () => {
         }
       }
 
-    }
-  
       console.log("Fetching fresh data...");
 
       const res = await fetch("/api/google-calendar");
